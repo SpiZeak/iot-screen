@@ -1,5 +1,5 @@
-ESP32-C6 Home Assistant Smart Home Controller
-Project Overview
+# ESP32-C6 Home Assistant Smart Home Controller
+## Project Overview
 This project aims to develop a sophisticated, locally controlled smart home interface using the ESP32-C6 Super Mini development board. It functions as an IoT gateway/controller for a Home Assistant instance (hosted separately), providing a direct touchscreen interface for controlling RGB lighting and receiving input from low-power PIR motion sensors. The entire system is built using the ESP-IDF framework, allowing for highly optimized performance and deep customization. Future-proofing is a core tenet, with native Matter connectivity planned for both the controller's functionalities and the low-power sensor network.
 Features
  * ESP-IDF Core: Built entirely on the Espressif IoT Development Framework for maximum control, efficiency, and resource optimization.
