@@ -46,6 +46,7 @@ Carefully connect your components:
    * Connect OUT (data signal) to a GPIO input pin on the low-power ESP board.
 3. Project Structure (Conceptual)
 Your ESP-IDF project will likely be structured with main components and custom components:
+```
 esp32-c6-smart-home-controller/
 ├── main/
 │   ├── Kconfig.projbuild
@@ -67,6 +68,7 @@ esp32-c6-smart-home-controller/
 │   │   └── ...
 │   └── Kconfig
 └── CMakeLists.txt
+```
 
 4. Software Implementation Steps
 a. ESP32-C6 Main Controller Firmware
